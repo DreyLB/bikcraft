@@ -14,7 +14,7 @@
 }
 
 .botao:hover {
-    background: linear-gradient(#ffb60d, #e2a);
+    background: linear-gradient(#ffb60d, var(--cor-p2));
 }
 
 @media (max-width: 600px) {
