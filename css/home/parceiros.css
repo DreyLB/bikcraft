@@ -1,0 +1,25 @@
+.parceiros {
+    padding-bottom: 60px;
+}
+
+.parceiros-imagem {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.parceiros-imagem img {
+    padding: 20px;
+}
+
+@media (max-width: 1000px) {
+    .parceiros-imagem {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 520px) {
+    .parceiros-imagem {
+        grid-template-columns: 1fr;
+    }
+}
