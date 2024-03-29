@@ -10,3 +10,9 @@
 
 /* Utilidades */
 @import "./utilidades/componentes.css";
+
+/* Bicicletas */
+@import "./bicicletas/bicicletas-lista.css";
+
+/* Tecnologias */
+@import "./tecnologia/tecnologia.css"
