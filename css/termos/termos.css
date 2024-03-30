@@ -1,0 +1,34 @@
+.termos-bg {
+    background-color: var(--cor-11);
+}
+
+.termos {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.termos-conteudo {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: grid;
+    gap: 40px;
+    max-width: 900px;
+}
+
+.termos-conteudo h2 {
+    margin-bottom: 20px;
+}
+
+.termos-conteudo li {
+    margin-bottom: 24px;
+}
+
+@media (max-width: 800px) {
+    .termos-conteudo {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        gap: 20px;
+    }
+    
+    
+}

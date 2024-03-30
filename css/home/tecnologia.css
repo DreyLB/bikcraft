@@ -21,6 +21,10 @@
     padding-bottom: 160px;
 }
 
+.tecnologia-conteudo span {
+    text-transform: uppercase;
+}
+
 
 .tecnologia-servicos {
     display: flex;
@@ -47,7 +51,7 @@
 }
 
 @media (max-width: 600px) {
-    .tecnologia-servicos  {
+    .tecnologia-servicos {
         flex-direction: column;
     }
 }
