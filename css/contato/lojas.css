@@ -31,13 +31,13 @@
 .lojas-tempo {
   grid-column: 1/-1;
 }
-
+/* 
 .lojas-tempo {
   display: flex;
   gap: 8px;
   align-items: center;
 }
-
+ */
 .lojas-dados {
   display: grid;
   gap: 8px;
